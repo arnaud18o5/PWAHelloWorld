@@ -10,7 +10,8 @@ var filesToCache = [
   './images/hello-icon-192.png',
   './images/hello-icon-256.png',
   './images/hello-icon-512.png',
-  './images/pwa.png'
+  './images/pwa.png',
+  './fonts/roboto-black-webfont.woff2'
   //add other files
 ];
 
