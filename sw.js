@@ -20,7 +20,7 @@ var filesToCache = [
 self.addEventListener('install', (event) => {
     event.waitUntil((async () => {
           try {
-            const cache = await caches.open('v1');
+            const cache = await cacheName.open('v1');
             return cache.addAll(filesToCache);
           } catch (e) {
             console.log(e.message);
